@@ -1,0 +1,26 @@
+{
+  "name": "react-memory-game",
+  "version": "0.1.0",
+  "description": "",
+  "author": "Zavier Sanders",
+  "private": true,
+  "homepage": "https://zavier-sanders.github.io/react-memory-game",
+  "devDependencies": {
+    "react-scripts": "0.8.5"
+  },
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-redux": "^4.0.0",
+    "react-router": "^2.0.1",
+    "redux": "^3.1.0",
+    "redux-thunk": "^2.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "deploy": "npm run build&&gh-pages -d build"
+  }
+}

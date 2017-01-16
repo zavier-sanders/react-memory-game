@@ -1,0 +1,91 @@
+.header {
+  width: 100%;
+  background-color: #334;
+  color: #fff;
+  align-items: center;
+  text-transform: uppercase;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.help-text span {
+  display: inline-block;
+}
+
+.help-text .btn-reset {
+  margin-left: 20px;
+  width: auto;
+  position: relative;
+  background-color: #2af;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #fff;
+  text-decoration:none;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.card {
+  width: 100px;
+  height: 150px;
+  position: relative;
+  float: left;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.card-content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.card-face {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #ddd;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.card-face span {
+  font-size: 3em;
+  position: relative;
+  top: 20%;
+}
+
+.card-back {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  border-radius: 5px;
+}
+
+.card-back i {
+  font-size: 60px;
+  position: absolute;
+}
+
+.card.matched .card-face, .card.matched .card-back {
+  display: none;
+}
+
+.card.matched .card-content {
+  background-color: #2af;
+  color: blue;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.card.flipped .card-back {
+  display: none;
+}
